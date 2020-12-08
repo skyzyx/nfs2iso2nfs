@@ -262,7 +262,7 @@ namespace nfs2iso2nfs
                     return null;
                 }
                 WII_COMMON_KEY = getKey(wiiKeyFile);
-                if (key == null)
+                if (WII_COMMON_KEY == null)
                 {
                     Console.WriteLine("ERROR: Wii common key file has wrong file size! Exiting...");
                     return null;
